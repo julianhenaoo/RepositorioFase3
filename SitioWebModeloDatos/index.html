@@ -1,0 +1,35 @@
+<html lang="es">
+<title>Modelado de Datos</title>
+<body>
+
+    <script type="text/javascript">
+			function redireccionar (URL){ 
+				window.open(URL, target="ventana_iframe") 
+			};
+   	</script>
+	<div id="contenedor">
+		<header>
+				<div class="divImagenLogo"><img class="imgLogo" src="imagenes/logoUNAD.png" alt="Universidad Abierta y a Distancia"></div>
+				<div class="divHeader">
+					<h1>
+							Modelo de Datos
+					</h1>		
+				</div>		
+		</header>
+		<nav>
+			<ul class="menu">
+				<li class="activo"><a onclick="redireccionar('./inicio.html');" class="menu" target="ventana_iframe">Inicio</a></li>
+				<li><a  class="menu" target="ventana_iframe">Modelado de Datos</a></li>
+				<li><a  class="menu" target="ventana_iframe">Otros Recursos</a></li>
+        <li><a onclick="redireccionar('./autores.html');" class="menu" target="ventana_iframe">Autores</a></li>      	
+			</ul>
+		</nav>
+	
+    	<iframe width="1100px" height="550px" src="./inicio.html" name="ventana_iframe" frameborder="0" marginwidth="0" marginheight="0" border="0" scrolling="no"></iframe>
+  
+  		<footer class="footContacto"></footer>
+	</div>
+</body>
+
+<link REL=StyleSheet href="Estilos/global.css" TYPE="text/css">
+</html>
